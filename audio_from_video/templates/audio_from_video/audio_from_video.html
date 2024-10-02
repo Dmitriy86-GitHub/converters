@@ -1,5 +1,11 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <h1>Convert audio </h1>
+
+    <h1>Создать аудио из видео  </h1>
+    <form method="post", enctype="multipart/form-data">
+        {% csrf_token %}
+        {{form}}
+        <button type="submit"> Загрузить видео </button>
+    </form>
 {% endblock %}
