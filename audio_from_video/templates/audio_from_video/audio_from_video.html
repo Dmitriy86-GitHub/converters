@@ -7,7 +7,10 @@
         {% csrf_token %}
         {{form}}
         <button type="submit"> Конвертировать видео </button>
-        <button type="button"> Прослушать </button>
+        <button type="button"> Слушать </button>
+        <a href="{{ 'audio_files/my_audio.mp3' }}" download="">
+            <button type="button"> Скачать</button>
+        </a>
 
     </form>
 {% endblock %}

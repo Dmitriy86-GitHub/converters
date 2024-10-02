@@ -395,6 +395,17 @@ files = [
 tqdm = "*"
 
 [[package]]
+name = "pyglet"
+version = "2.0.17"
+description = "pyglet is a cross-platform games and multimedia package."
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "pyglet-2.0.17-py3-none-any.whl", hash = "sha256:c881615a5bf14455af36a0915fd9dad0069da904ab5e0ec19b4d6cdfcf1e84c2"},
+    {file = "pyglet-2.0.17.tar.gz", hash = "sha256:50c533c1a7cafdccccf43041338ad921ae26866e9871b4f12bf608500632900a"},
+]
+
+[[package]]
 name = "requests"
 version = "2.32.3"
 description = "Python HTTP for Humans."
@@ -475,4 +486,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "98c40561bd6e202312a04c80d1a239c70fe63f198d6c3d5062157bfb1b1bcd74"
+content-hash = "7652b0c4a95a942855691b548a8871d2105667fb8636d5939662d040ea4a4a54"
